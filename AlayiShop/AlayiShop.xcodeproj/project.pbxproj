@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A2BF9D1B8B182200AB01E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BF9C1B8B182200AB01E2 /* main.m */; };
+		01A2BFA01B8B182200AB01E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */; };
+		01A2BFA61B8B182200AB01E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A2BFA41B8B182200AB01E2 /* Main.storyboard */; };
+		01A2BFA81B8B182200AB01E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A2BFA71B8B182200AB01E2 /* Images.xcassets */; };
+		01A2BFB71B8B182200AB01E2 /* AlayiShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BFB61B8B182200AB01E2 /* AlayiShopTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A2BFB11B8B182200AB01E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A2BF8F1B8B182200AB01E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01A2BF961B8B182200AB01E2;
+			remoteInfo = AlayiShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A2BF971B8B182200AB01E2 /* AlayiShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlayiShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A2BF9B1B8B182200AB01E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A2BF9C1B8B182200AB01E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A2BF9E1B8B182200AB01E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01A2BFA51B8B182200AB01E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01A2BFA71B8B182200AB01E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AlayiShop/Images.xcassets; sourceTree = "<group>"; };
+		01A2BFB01B8B182200AB01E2 /* AlayiShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlayiShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A2BFB51B8B182200AB01E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A2BFB61B8B182200AB01E2 /* AlayiShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlayiShopTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A2BF941B8B182200AB01E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A2BFAD1B8B182200AB01E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A2BF8E1B8B182200AB01E2 = {
+			isa = PBXGroup;
+			children = (
+				01A2BF991B8B182200AB01E2 /* AlayiShop */,
+				01A2BFA71B8B182200AB01E2 /* Images.xcassets */,
+				01A2BF9A1B8B182200AB01E2 /* Supporting Files */,
+				01A2BFB31B8B182200AB01E2 /* AlayiShopTests */,
+				01A2BF981B8B182200AB01E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A2BF981B8B182200AB01E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BF971B8B182200AB01E2 /* AlayiShop.app */,
+				01A2BFB01B8B182200AB01E2 /* AlayiShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A2BF991B8B182200AB01E2 /* AlayiShop */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BFC01B8B18CF00AB01E2 /* Classes */,
+			);
+			path = AlayiShop;
+			sourceTree = "<group>";
+		};
+		01A2BF9A1B8B182200AB01E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BF9B1B8B182200AB01E2 /* Info.plist */,
+				01A2BF9C1B8B182200AB01E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = AlayiShop;
+			sourceTree = "<group>";
+		};
+		01A2BFB31B8B182200AB01E2 /* AlayiShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BFB61B8B182200AB01E2 /* AlayiShopTests.m */,
+				01A2BFB41B8B182200AB01E2 /* Supporting Files */,
+			);
+			path = AlayiShopTests;
+			sourceTree = "<group>";
+		};
+		01A2BFB41B8B182200AB01E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BFB51B8B182200AB01E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A2BFC01B8B18CF00AB01E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BFC31B8B192B00AB01E2 /* View(视图) */,
+				01A2BFC21B8B190100AB01E2 /* Main(主要) */,
+				01A2BFC11B8B18E800AB01E2 /* Lib(第三方) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01A2BFC11B8B18E800AB01E2 /* Lib(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Lib(第三方)";
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		01A2BFC21B8B190100AB01E2 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		01A2BFC31B8B192B00AB01E2 /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+				01A2BF9E1B8B182200AB01E2 /* AppDelegate.h */,
+				01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */,
+				01A2BFA41B8B182200AB01E2 /* Main.storyboard */,
+			);
+			name = "View(视图)";
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A2BF961B8B182200AB01E2 /* AlayiShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A2BFBA1B8B182200AB01E2 /* Build configuration list for PBXNativeTarget "AlayiShop" */;
+			buildPhases = (
+				01A2BF931B8B182200AB01E2 /* Sources */,
+				01A2BF941B8B182200AB01E2 /* Frameworks */,
+				01A2BF951B8B182200AB01E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlayiShop;
+			productName = AlayiShop;
+			productReference = 01A2BF971B8B182200AB01E2 /* AlayiShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01A2BFAF1B8B182200AB01E2 /* AlayiShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A2BFBD1B8B182200AB01E2 /* Build configuration list for PBXNativeTarget "AlayiShopTests" */;
+			buildPhases = (
+				01A2BFAC1B8B182200AB01E2 /* Sources */,
+				01A2BFAD1B8B182200AB01E2 /* Frameworks */,
+				01A2BFAE1B8B182200AB01E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01A2BFB21B8B182200AB01E2 /* PBXTargetDependency */,
+			);
+			name = AlayiShopTests;
+			productName = AlayiShopTests;
+			productReference = 01A2BFB01B8B182200AB01E2 /* AlayiShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A2BF8F1B8B182200AB01E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Evans;
+				TargetAttributes = {
+					01A2BF961B8B182200AB01E2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					01A2BFAF1B8B182200AB01E2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 01A2BF961B8B182200AB01E2;
+					};
+				};
+			};
+			buildConfigurationList = 01A2BF921B8B182200AB01E2 /* Build configuration list for PBXProject "AlayiShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01A2BF8E1B8B182200AB01E2;
+			productRefGroup = 01A2BF981B8B182200AB01E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A2BF961B8B182200AB01E2 /* AlayiShop */,
+				01A2BFAF1B8B182200AB01E2 /* AlayiShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A2BF951B8B182200AB01E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A2BFA61B8B182200AB01E2 /* Main.storyboard in Resources */,
+				01A2BFA81B8B182200AB01E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A2BFAE1B8B182200AB01E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A2BF931B8B182200AB01E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A2BFA01B8B182200AB01E2 /* AppDelegate.m in Sources */,
+				01A2BF9D1B8B182200AB01E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A2BFAC1B8B182200AB01E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A2BFB71B8B182200AB01E2 /* AlayiShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A2BFB21B8B182200AB01E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01A2BF961B8B182200AB01E2 /* AlayiShop */;
+			targetProxy = 01A2BFB11B8B182200AB01E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01A2BFA41B8B182200AB01E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A2BFA51B8B182200AB01E2 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A2BFB81B8B182200AB01E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01A2BFB91B8B182200AB01E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A2BFBB1B8B182200AB01E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AlayiShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01A2BFBC1B8B182200AB01E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AlayiShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01A2BFBE1B8B182200AB01E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlayiShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlayiShop.app/AlayiShop";
+			};
+			name = Debug;
+		};
+		01A2BFBF1B8B182200AB01E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlayiShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlayiShop.app/AlayiShop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A2BF921B8B182200AB01E2 /* Build configuration list for PBXProject "AlayiShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A2BFB81B8B182200AB01E2 /* Debug */,
+				01A2BFB91B8B182200AB01E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A2BFBA1B8B182200AB01E2 /* Build configuration list for PBXNativeTarget "AlayiShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A2BFBB1B8B182200AB01E2 /* Debug */,
+				01A2BFBC1B8B182200AB01E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01A2BFBD1B8B182200AB01E2 /* Build configuration list for PBXNativeTarget "AlayiShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A2BFBE1B8B182200AB01E2 /* Debug */,
+				01A2BFBF1B8B182200AB01E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A2BF8F1B8B182200AB01E2 /* Project object */;
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016887241B8B6F13006E2011 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016887231B8B6F13006E2011 /* SettingController.m */; };
+		016887271B8B723A006E2011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016887261B8B723A006E2011 /* ViewController.m */; };
 		01A2BF9D1B8B182200AB01E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BF9C1B8B182200AB01E2 /* main.m */; };
 		01A2BFA01B8B182200AB01E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */; };
 		01A2BFA61B8B182200AB01E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A2BFA41B8B182200AB01E2 /* Main.storyboard */; };
@@ -25,6 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016887221B8B6F13006E2011 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		016887231B8B6F13006E2011 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		016887251B8B723A006E2011 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		016887261B8B723A006E2011 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01A2BF971B8B182200AB01E2 /* AlayiShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlayiShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A2BF9B1B8B182200AB01E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A2BF9C1B8B182200AB01E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016887201B8B6E9B006E2011 /* UserCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				016887211B8B6ED2006E2011 /* Setting(设置) */,
+			);
+			name = "UserCenter(个人中心)";
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		016887211B8B6ED2006E2011 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				016887221B8B6F13006E2011 /* SettingController.h */,
+				016887231B8B6F13006E2011 /* SettingController.m */,
+			);
+			name = "Setting(设置)";
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		01A2BF8E1B8B182200AB01E2 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +88,7 @@
 				01A2BF9A1B8B182200AB01E2 /* Supporting Files */,
 				01A2BFB31B8B182200AB01E2 /* AlayiShopTests */,
 				01A2BF981B8B182200AB01E2 /* Products */,
+				8EB8ADC84AB8819D6B1F841B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +157,7 @@
 		01A2BFC21B8B190100AB01E2 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
+				016887201B8B6E9B006E2011 /* UserCenter(个人中心) */,
 			);
 			name = "Main(主要)";
 			path = Main;
@@ -142,9 +169,18 @@
 				01A2BF9E1B8B182200AB01E2 /* AppDelegate.h */,
 				01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */,
 				01A2BFA41B8B182200AB01E2 /* Main.storyboard */,
+				016887251B8B723A006E2011 /* ViewController.h */,
+				016887261B8B723A006E2011 /* ViewController.m */,
 			);
 			name = "View(视图)";
 			path = View;
+			sourceTree = "<group>";
+		};
+		8EB8ADC84AB8819D6B1F841B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A2BFA01B8B182200AB01E2 /* AppDelegate.m in Sources */,
+				016887241B8B6F13006E2011 /* SettingController.m in Sources */,
+				016887271B8B723A006E2011 /* ViewController.m in Sources */,
 				01A2BF9D1B8B182200AB01E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +407,20 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AlayiShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -380,6 +432,20 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = AlayiShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -437,6 +503,7 @@
 				01A2BFBC1B8B182200AB01E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01A2BFBD1B8B182200AB01E2 /* Build configuration list for PBXNativeTarget "AlayiShopTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +512,7 @@
 				01A2BFBF1B8B182200AB01E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

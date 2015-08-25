@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		016887241B8B6F13006E2011 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016887231B8B6F13006E2011 /* SettingController.m */; };
-		016887271B8B723A006E2011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016887261B8B723A006E2011 /* ViewController.m */; };
 		01A2BF9D1B8B182200AB01E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BF9C1B8B182200AB01E2 /* main.m */; };
 		01A2BFA01B8B182200AB01E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */; };
 		01A2BFA61B8B182200AB01E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A2BFA41B8B182200AB01E2 /* Main.storyboard */; };
@@ -29,8 +28,6 @@
 /* Begin PBXFileReference section */
 		016887221B8B6F13006E2011 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
 		016887231B8B6F13006E2011 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
-		016887251B8B723A006E2011 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		016887261B8B723A006E2011 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01A2BF971B8B182200AB01E2 /* AlayiShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlayiShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A2BF9B1B8B182200AB01E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A2BF9C1B8B182200AB01E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,19 +136,12 @@
 		01A2BFC01B8B18CF00AB01E2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				01E619FC1B8C0A1B0068E905 /* Vender(第三方) */,
+				01E619FB1B8C09C40068E905 /* Expand(拓展) */,
 				01A2BFC31B8B192B00AB01E2 /* View(视图) */,
 				01A2BFC21B8B190100AB01E2 /* Main(主要) */,
-				01A2BFC11B8B18E800AB01E2 /* Lib(第三方) */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		01A2BFC11B8B18E800AB01E2 /* Lib(第三方) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Lib(第三方)";
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		01A2BFC21B8B190100AB01E2 /* Main(主要) */ = {
@@ -169,11 +159,25 @@
 				01A2BF9E1B8B182200AB01E2 /* AppDelegate.h */,
 				01A2BF9F1B8B182200AB01E2 /* AppDelegate.m */,
 				01A2BFA41B8B182200AB01E2 /* Main.storyboard */,
-				016887251B8B723A006E2011 /* ViewController.h */,
-				016887261B8B723A006E2011 /* ViewController.m */,
 			);
 			name = "View(视图)";
 			path = View;
+			sourceTree = "<group>";
+		};
+		01E619FB1B8C09C40068E905 /* Expand(拓展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Expand(拓展)";
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		01E619FC1B8C0A1B0068E905 /* Vender(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Vender(第三方)";
+			path = Vender;
 			sourceTree = "<group>";
 		};
 		8EB8ADC84AB8819D6B1F841B /* Frameworks */ = {
@@ -284,7 +288,6 @@
 			files = (
 				01A2BFA01B8B182200AB01E2 /* AppDelegate.m in Sources */,
 				016887241B8B6F13006E2011 /* SettingController.m in Sources */,
-				016887271B8B723A006E2011 /* ViewController.m in Sources */,
 				01A2BF9D1B8B182200AB01E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

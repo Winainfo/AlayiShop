@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B580E4E-C692-4EBF-8766-8AE5AE59947B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AlayiShop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB4DFFFE6E50A2400CA164D6A809EA69FE78D89A</key>
+		<string>https://github.com/Winainfo/AlayiShop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AlayiShop/AlayiShop.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB4DFFFE6E50A2400CA164D6A809EA69FE78D89A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Winainfo/AlayiShop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB4DFFFE6E50A2400CA164D6A809EA69FE78D89A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB4DFFFE6E50A2400CA164D6A809EA69FE78D89A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlayiShop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
